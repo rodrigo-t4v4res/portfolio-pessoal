@@ -152,6 +152,10 @@ main {
   gap: 5rem;
 }
 
+.foto-perfil {
+  object-fit: contain;
+}
+
 /* Introdução */
 
 .introduction-wrapper {
@@ -196,6 +200,7 @@ main {
   flex-direction: column;
   gap: 5rem;
   width: 62.3rem;
+  text-align: justify;
 }
 
 .introduction-text a {
