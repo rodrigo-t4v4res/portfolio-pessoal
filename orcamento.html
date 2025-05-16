@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevFull - Orçamento</title>
+
+  <!-- Tipografias PT Serif e Roboto, Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header class="header bg-black">
+    <div class="header-content">
+      <figure>
+        <a href="./"><img src="./assets/logomarca.svg" alt="Logomarca do DevFull"></a>
+      </figure>
+
+      <nav>
+        <ul class="header-nav-list">
+          <li>
+            <a class="home-link" href="./">Home</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="area-section bg-gray">
+      <div class="cabecalho-conteudo">
+        <div class="cabecalho">
+          <div class="traco1"></div>
+          <div>
+            <h1> ORÇAMENTO </h1>
+          </div>
+          <div class="traco2"></div>
+        </div>
+
+
+        <p class="paragrafo-orcamento">Envie-nos uma mensagem! <br>
+          Farei um orçamento para o seu projeto 😊
+        </p>
+
+        <div class="formulario-orcamento">
+          <form action="emailto:seuemail@aqui.com">
+            <label for="nome_completo">Nome<br>
+              <input type="text" name="nome_completo" id="nome_completo">
+            </label>
+
+            <br><br>
+
+            <label for="email">Email<br>
+              <input type="email" name="email" id="email">
+            </label>
+
+            <br><br>
+
+            <label for="contato">Contato<br>
+              <input type="tel" name="contato" id="contato">
+            </label>
+
+            <br><br>
+
+            <label for="assunto">Assunto<br>
+              <input type="text" name="assunto" id="assunto">
+            </label>
+
+            <br><br>
+
+            <label for="mensagem">Mensagem<br>
+              <textarea name="mensagem" id="mensagem"></textarea>
+            </label>
+
+            <br><br>
+
+            <button class="botao-enviar">Enviar mensagem <img src="./assets/cartao-postal.svg" alt=""></button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black">
+    <div class="footer-conteudo">
+      <figure>
+        <a href="./"><img src="./assets/logomarca.svg" alt="Logomarca do DevFull"></a>
+      </figure>
+      <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcarmos uma conversa 👋</p>
+      <span>Copyright © 2025 by DevFull. All rights reserved.</span>
+      <div class="contatos">
+        <a href="tel:+5585999999999">+55 85 9.9999-9999</a>
+        <a href="mailto:devfull@gmail.com">devfull@gmail.com</a>
+        <div class="social-links">
+          <a href="https://facebook.com">
+            <img src="./assets/social-icons/facebook.svg" alt="Ícone clicável da rede social Facebook">
+          </a>
+          <a href="https://x.com"><img src="" alt="">
+            <img src="./assets/social-icons/twitter.svg" alt="Ícone clicável da rede social X">
+          </a>
+          <a href="https://br.linkedin.com/">
+            <img src="./assets/social-icons/linkedin.svg" alt="Ícone clicável da rede social Linkedin">
+          </a>
+          <a href="https://wa.me/558599999999">
+            <img src="./assets/social-icons/whatsapp.svg" alt="Ícone clicável para abrir contato no Whatsapp">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
